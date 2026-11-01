@@ -1,0 +1,48 @@
+# Binaries / build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/build/
+/dist/
+/out/
+*.test
+*.out
+
+# Go workspace (local module cache in repo — do not commit)
+/vendor/
+
+# Dependency caches (if copied into project by mistake)
+/node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+/tmp/
+/temp/
+
+# Test & coverage
+coverage.txt
+coverage.out
+*.coverprofile
+profile.cov
